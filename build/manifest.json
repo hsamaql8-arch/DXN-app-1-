@@ -1,0 +1,43 @@
+{
+  "id": "./",
+  "name": "DXN — غذاء الطبيعة بين يديك",
+  "short_name": "DXN",
+  "description": "تطبيق DXN: المنتجات، روتين البشرة، نظام النقاط، خطة العمل، الفروع، وتسجيل الأعضاء — يعمل بدون إنترنت بعد أول فتح.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#FBF7EF",
+  "theme_color": "#54151B",
+  "categories": ["shopping", "business", "health"],
+  "icons": [
+    { "src": "icons/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "icons/apple-touch-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "تسجيل عضوية جديدة",
+      "short_name": "تسجيل عضوية",
+      "url": "./index.html#members",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "المنتجات",
+      "short_name": "المنتجات",
+      "url": "./index.html#products",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "نظام النقاط",
+      "short_name": "النقاط",
+      "url": "./index.html#points",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
