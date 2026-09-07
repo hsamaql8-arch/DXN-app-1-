@@ -1,3 +1,4 @@
+
 plugins { id "com.android.application" }
 
 android {
@@ -25,8 +26,11 @@ android {
     }
 }
 
+configurations.all {
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
+}
+
 dependencies {
     implementation "androidx.appcompat:appcompat:1.7.0"
     implementation "androidx.webkit:webkit:1.11.0"
-}   
-
+}
